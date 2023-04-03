@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** end reset css**/
+body {
+	max-width: 1140px;
+	margin:auto;
+	font-family: 'Work Sans' ;
+	font-size: 14px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0
+}
+section {
+	margin: 50px 0
+}
+
+h1{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Syne';
+	font-size: 22px;
+	font-weight: 800;
+	color: #B1663C
+}
+
+h1 > span {
+	font-family: 'Work Sans';
+	font-size:10px;
+	letter-spacing: 0.1em;
+;
+}
+
+h2{
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: #1D6154;
+    margin-bottom: 2rem;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+
+}
+nav li {
+    cursor: pointer;
+	padding: 0 10px;
+	font-size: 1.2em;
+}
+
+li:hover {
+	color: #B1663C;
+}
+
+.imginstagram{
+    width: 50%;
+}
+.font-weight{
+    font-weight: 600;
+}
+
+/* Partie log in */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_form{
+    width: 30%;
+}
+
+
+h3 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 14px;
+    color: #1D6154;
+    margin-bottom: 8px;
+}
+input{
+    border: none;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+    margin-bottom: 24px;
+}
+
+button{
+    width: 35%;
+    height: 40px;
+    margin: 24px;
+    background-color: #1D6154;
+    border: none;
+    font-family: 'Syne';
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 14px;
+    color: #3D3D3D;
+    text-decoration-line: underline;
+}
+
+.display_box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* Footer */
+
+footer nav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 1rem;
+}
